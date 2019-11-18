@@ -194,6 +194,7 @@ public class MainActivity extends AppCompatActivity {
 
                 etDescription.setText("");
                 ivPostImage.setImageResource(0);
+                Toast.makeText(MainActivity.this, "Posted successfully", Toast.LENGTH_SHORT).show();
             }
         });
     }
