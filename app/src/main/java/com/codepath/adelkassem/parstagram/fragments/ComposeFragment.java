@@ -66,6 +66,7 @@ public class ComposeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         etDescription = view.findViewById(R.id.etDescription);
         btnCaptureImage = view.findViewById(R.id.btnCaptureImage);
+        ivPostImage = view.findViewById(R.id.ivPostImage);
         btnSubmit = view.findViewById(R.id.btnSubmit);
         btnLogout = view.findViewById(R.id.btnLogout);
 
@@ -132,9 +133,7 @@ public class ComposeFragment extends Fragment {
         if (requestCode == CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE) {
             if (resultCode == RESULT_OK) {
                 // by this point we have the camera photo on disk
-//                rotateBitmapOrientation(photoFile.getAbsolutePath());
                 Bitmap takenImage = BitmapFactory.decodeFile(photoFile.getAbsolutePath());
-                // RESIZE BITMAP, see section below
                 // Load the taken image into a preview
                 ivPostImage.setImageBitmap(takenImage);
             } else { // Result was a failure
