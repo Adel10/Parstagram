@@ -15,7 +15,7 @@
 
 ## App Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented features:
 
 <img src='walkthrough.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' /> <img src='walkthrough_new.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' />
 
