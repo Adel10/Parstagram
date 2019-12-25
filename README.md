@@ -13,7 +13,7 @@
 - User can take a photo, add a caption, and post it to "Instagram".
 
 
-## Video Walkthrough
+## App Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
